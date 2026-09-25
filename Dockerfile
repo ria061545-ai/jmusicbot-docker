@@ -1,4 +1,4 @@
-FROM bitnami/minideb:bullseye
+FROM bitnami/minideb:bookworm
 
 RUN install_packages openjdk-11-jre-headless wget curl grep \
   && mkdir /app \
