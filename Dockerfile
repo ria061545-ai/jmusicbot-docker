@@ -15,6 +15,5 @@ COPY run_bot.sh /app/run_bot.sh
 RUN chmod +x /app/run_bot.sh
 
 WORKDIR /app
-VOLUME /config
 
 CMD ["./run_bot.sh"]
